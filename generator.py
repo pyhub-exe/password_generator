@@ -7,8 +7,8 @@ def generator():
     spec = list('!&@$^$*_#-+=~`')
     passcomb = [letters, numbers, spec]
     password = ''
-    print('                                     Генератор паролей by kita v.1.0')
-    print('Введите длину пароля')
+    print('                                     Password Generator by kita v.1.0')
+    print('Enter password length')
     length = int(input())
 
 
